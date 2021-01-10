@@ -1,0 +1,92 @@
+\documentclass[10pt,a4paper]{book}
+\usepackage{graphicx}
+% Requires \usepackage{graphicx}
+
+\begin{document}
+\small
+
+\begin{flushright}
+\textsf{\textbf{Context-free Grammar $|$ 323}}
+\end{flushright}
+
+\begin{flushleft}
+  iii) The finite automata obtained from the expression in step II is
+\end{flushleft}
+
+\begin{figure}[h]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=10cm]{1.1}\\
+\end{figure}
+
+\begin{flushleft}
+  iv) The constructed right linear grammar is
+  
+  \qquad
+  
+  \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad A → 0B,
+  
+  \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad A → 1E/1
+  
+  \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad B → 0C
+  
+  \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad C → 0D/0C
+  
+  \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad D → 1E/1
+  
+  \qquad
+  
+   Here, E is a useless symbol. Eliminate all productions of E. The new productions are
+   
+   \quad
+   
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad A → 0B
+
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad A → 1
+
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad B → 0C
+
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad C → 0D/0C
+
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad D → 1
+
+\qquad
+
+v) Reversing the right side of each production of the right linear grammar,
+
+\qquad
+
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad A → B0/1
+
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad B → C0
+
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad C → D0/C0
+
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad D → 1
+
+\qquad
+
+This is the equivalent left linear grammar to the right linear grammar.
+\end{flushleft}
+
+\begin{flushleft}
+\begin{figure}[h]
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=3.5cm]{1.2}\\ Convert the following left linear grammar to right linear grammar.
+  
+  \qquad\qquad\qquad\qquad\qquad S → S10/A1
+  
+  \qquad\qquad\qquad\qquad\qquad A → A00/00
+  
+  \textbf{\textsf{Solution:}}
+  
+  \quad i) Reversing the right side of every production, we get
+  
+  \qquad\qquad\qquad\qquad\qquad S → 01S/1A
+  
+  \qquad\qquad\qquad\qquad\qquad A → 00A/00
+\end{figure}
+  
+\end{flushleft}
+
+\end{document}
