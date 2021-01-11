@@ -26,7 +26,7 @@
 
 ###  بخش عمومی
 - [ارزیابی رزومه و انگیزه نامه](https://github.com/bahraminejad98/PNU_3991_AR/blob/main/MB_CV_CheckList_AR_3991.pdf)
-- [خلاصه ارزیابی بخش عمومی]()
+- [خلاصه ارزیابی بخش عمومی](https://github.com/bahraminejad98/PNU_3991_AR/blob/main/MB_GeneralSection_CheckList_AR_3991.pdf)
 
 ### بخش دروس کارشناسی
 - [خلاصه ارزیابی نظریه زبانها و ماشین ها]()
